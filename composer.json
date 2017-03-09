@@ -1,0 +1,19 @@
+{
+    "name": "rev/sway-framework-distribution",
+    "description": "SwayFramework Distribution",
+    "type": "sf-package",
+    "authors": [
+        {
+            "name": "Reverze",
+            "email": "hawkmedia24@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sway\\Distribution\\": "src/"
+        }
+    }
+}
