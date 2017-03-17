@@ -1,13 +1,17 @@
 {
     "name": "rev/sway-framework-distribution",
-    "description": "SwayFramework Distribution",
+    "description": "SwayFramework Distribution Component",
     "type": "sf-package",
+    "license": "GPL-3.0",
     "authors": [
         {
             "name": "Reverze",
             "email": "hawkmedia24@gmail.com"
         }
     ],
+    "support": {
+        "email": "hawkmedia24@gmail.com"
+    },
     "require": {
         "symfony/yaml": "^3.2"
     },
