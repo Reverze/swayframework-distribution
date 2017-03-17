@@ -56,3 +56,18 @@ List of all built-in services:
   **Description**: 'sf-package' libraries manager
 
 
+For defaults, built-in services are not registered. If framework kernel is initialized
+and service and parameter component are available, you can call method *initDistribution*
+to register built-in services.
+
+```php
+$frameworkDistribution->initDistribution();
+```
+
+You can also initialize a interface to framework as service (service: *framework*):
+
+```php
+$frameworkDistribution->initializeFrameworkService($array_with_parameters);
+```
+
+
