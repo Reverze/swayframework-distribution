@@ -1,0 +1,7 @@
+framework:
+    service:
+        distribution_class_mapper:
+            class: Sway\Distribution\Mapping\ClassMapper
+            arguments: [ "@distribution_storage" ]
+            
+                
