@@ -6,7 +6,7 @@ It also provides a feature to manage configuration around packages and app.
 
 *This package is bundled with swayframework*.
  
- ```php
+```
 composer require rev/sway-framework-distribution
 ```
 
