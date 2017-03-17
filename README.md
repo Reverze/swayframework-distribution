@@ -7,7 +7,7 @@ It also provides a feature to manage configuration around packages and app.
 *This package is bundled with swayframework*.
  
 ```
-composer require rev/sway-framework-distribution
+composer require rev/swayframework-distribution
 ```
 
 This will install package at latest version.
