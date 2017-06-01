@@ -67,7 +67,7 @@ class ClassFounder
          */
         $searchParametersHash = md5(sprintf("%s#%s", $searchParameters['subnamespace'] ?? "",
                 $searchParameters['sufix'] ?? ""));
-        
+
         /**
          * Gets storage channel which stores all stored class maps
          */
@@ -86,6 +86,7 @@ class ClassFounder
         $classMapper = $this->createClassMapper();
         
         $classMap = $classMapper->getMapFor($searchParameters['subnamespace'], $searchParameters['sufix']);
+
         
         $classMapStorageChannel->set('map', $classMap);
         

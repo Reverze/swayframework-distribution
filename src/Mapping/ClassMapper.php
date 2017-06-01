@@ -40,6 +40,7 @@ class ClassMapper implements ClassMapperInterface
     public function getMapFor(string $inSubNamespace, string $classNameSufix) : array
     {   
         $classessInSubnamespace = $this->getClasessWithSubnamespace($inSubNamespace);
+
         
         $classess = $this->getClassessWithSufix($classNameSufix, $classessInSubnamespace);
         
