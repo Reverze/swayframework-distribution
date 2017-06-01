@@ -42,6 +42,8 @@ class ClassMapper implements ClassMapperInterface
         $classessInSubnamespace = $this->getClasessWithSubnamespace($inSubNamespace);
         
         $classess = $this->getClassessWithSufix($classNameSufix, $classessInSubnamespace);
+
+        var_dump($classess);
         
         return $classess;
     }
@@ -95,7 +97,8 @@ class ClassMapper implements ClassMapperInterface
     public function getClassessWithSufix(string $classSufix, array $map = array()) : array
     {
         if (empty($map)){
-            $map = $this->getDeclaredClassess();
+            //$map = $this->getDeclaredClassess();
+            return array();
         }
         
         $classess = array();
